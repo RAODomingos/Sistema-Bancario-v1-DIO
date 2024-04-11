@@ -1,20 +1,40 @@
 # Sistema Bancário  | DIO - Python AI Backend Developer | VIVO 
 versão - 1.0 
 
-## Operação de Deposito
+O sistema desenvolvido durante o curso, com apoio de vídeos, executa três operações: Depósito, Saque e Extrato, seguindo as instruções a seguir.
 
-- Trabalha apenas com 1 usuário, dessa forma não precisa identificar o numero da agencia e conta. 
-- dever ser valor positivo.
-- Todos devem ser armazenados em um variável e exibidos na operação de extrato
 
-## Operação de Saque
 
-- Deve permitir realizar 3 saques diários com limite máximo de R$ 500,00 por saque
-- Caso o usuário não tenha saldo em conta, o sistema deve exibir uma mensagem informando que não será possível sacar o dinheiro por falta de saldo
-- Todos os saques devem ser armazenados em uma variável e exibidos na operação de extrato 
+## Operação de Depósito 
 
-## Operação Extrato
 
-- Essa operação deve listar todos os depósitos e saques realizados na conta. 
-- No final da listagem deve ser exibido o saldo atual da conta.
-- Os valores devem ser exibidos utilizando o formato R$ xxx,xx Ex.: 1500.45 = R$ 1500,45 
+
+- Funciona para um único usuário, eliminando a necessidade de identificar número de agência e conta.
+
+- O valor deve ser positivo.
+
+- Todos os valores devem ser armazenados em uma variável e apresentados na operação de extrato.
+
+
+
+## Operação de Saque 
+
+
+
+- Permite até três saques diários, com um limite de R$ 500,00 por saque.
+
+- Se não houver saldo suficiente, o sistema deve informar que o saque não é possível devido à falta de fundos.
+
+- Os saques devem ser armazenados em uma variável e mostrados na operação de extrato.
+
+
+
+## Operação de Extrato 
+
+
+
+- Deve exibir todos os depósitos e saques feitos na conta.
+
+- Ao final, deve mostrar o saldo atual da conta.
+
+- Os valores devem ser exibidos no formato R$ xxx,xx, por exemplo, 1500.45 = R$ 1500,45.
